@@ -1,6 +1,6 @@
 # Ticket Booking App
 
-**Tech Stack:** Android Studio, Firebase, Eazorpay
+**Tech Stack:** Android Studio, Firebase, Razorpay
 
 ## Features
 - Buy tickets with integrated payments
