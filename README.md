@@ -11,7 +11,7 @@
 
 ![Home Screen](screenshots/homepage.png)
 ![My Tickets](screenshots/mytickets.png)
-![Checkout](screenshots/checkout.png)
+![Seat Booking](screenshots/seatbooking.png)
 
 ## How to Run
 1. Clone the repository
