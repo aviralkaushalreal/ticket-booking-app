@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "130451820188",
+    "project_id": "popcorntickets-b7b09",
+    "storage_bucket": "popcorntickets-b7b09.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130451820188:android:35ece1007838c81a68e759",
+        "android_client_info": {
+          "package_name": "com.aviral.popcorntickets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD75x7SurCBMDrAgqUl-pyRoWXVZUEcvYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

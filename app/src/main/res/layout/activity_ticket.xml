@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataObjects.Ticket"
+    android:background="@color/blackish">
+    <TextView
+        android:id="@+id/confirm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/natasansbold"
+        android:text="Gully Boy"
+        android:textColor="@color/purple"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/natasansbold"
+        android:text="Your Ticket is Booked!!"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="@+id/confirm_title"
+        app:layout_constraintStart_toStartOf="@+id/confirm_title"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_title" />
+
+    <TextView
+        android:id="@+id/confirm_seats"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/natasansbold"
+        android:text="Seats : D3,D2"
+        android:textColor="@color/purple"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/confirm_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/natasansbold"
+        android:text="Date : 24-10-25"
+        android:textColor="@color/purple"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_seats" />
+
+    <TextView
+        android:id="@+id/confirm_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/natasansbold"
+        android:text="Time : 11AM"
+        android:textColor="@color/purple"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_date" />
+
+    <ImageView
+        android:layout_width="238dp"
+        android:layout_height="187dp"
+        android:src="@drawable/confirmed"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_date"
+        tools:layout_editor_absoluteX="110dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
